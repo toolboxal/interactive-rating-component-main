@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="card">
+          <div class="icon-circle">
+            <img
+              src="./images/icon-star.svg"
+              class="icon-star"
+              alt="star icon"
+            />
+          </div>
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <form action="">
+            <div class="radios-wrapper">
+              <div class="radio-circle">
+                <label class="radio-label one" for="1">1</label>
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="rating"
+                  id="1"
+                  value="1"
+                  checked
+                />
+              </div>
+              <div class="radio-circle">
+                <label class="radio-label two" for="2">2</label>
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="rating"
+                  id="2"
+                  value="2"
+                />
+              </div>
+              <div class="radio-circle">
+                <label class="radio-label three" for="3">3</label>
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="rating"
+                  id="3"
+                  value="3"
+                />
+              </div>
+              <div class="radio-circle">
+                <label class="radio-label four" for="4">4</label>
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="rating"
+                  id="4"
+                  value="4"
+                />
+              </div>
+              <div class="radio-circle">
+                <label class="radio-label five" for="5">5</label>
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="rating"
+                  id="5"
+                  value="5"
+                />
+              </div>
+            </div>
+            <button class="btn">submit</button>
+          </form>
+        </div>
+        <!-- <div class="card second-card">
+          <div class="img-container">
+            <img
+              src="./images/illustration-thank-you.svg"
+              class="illustration"
+              alt="paid illustration"
+            />
+          </div>
+          <div class="result">You selected 4 out of 5</div>
+          <h2>thank you!</h2>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div> -->
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
