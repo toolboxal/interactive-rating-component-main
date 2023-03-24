@@ -8,7 +8,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://fem-toolboxal-rating-component.netlify.app/)
+- Live Site URL: [FEM Rating Component](https://fem-toolboxal-rating-component.netlify.app/)
 
 ## My process
 
